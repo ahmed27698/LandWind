@@ -3,37 +3,17 @@ import { useState } from 'react'
 import { BsCartPlus, BsCartDash } from "react-icons/bs";
 
 
-// 1
 const Cart = () => {
 
     const [number, setNumber] = useState(0);
 
-
     console.log('Cart rendered')
     console.log('number after render', number)
 
-    const increase = () => {
-        console.log('increase called');
+    const updateNum = num => setNumber(number + num);
 
-        console.log('number before', number);
-
-        setNumber(number + 1);
-
-        console.log('number after', number);
-    }
-
-
-
-
-    const decrease = () => {
-        console.log('Decrease called')
-    }
-
-
-    // 3
     return (
 
-        // 5
         <div>
             <h1>Cart</h1>
 
@@ -42,12 +22,12 @@ const Cart = () => {
             </div>
 
             <div className="flex gap-3 items-center justify-center my-4">
-                <button onClick={increase} className={`${styles.btn} ${styles.btn_green} `}>
+                <button onClick={() => updateNum(1)} className={`${styles.btn} ${styles.btn_green} `}>
                     <BsCartPlus /> 1
                 </button>
 
 
-                <button onClick={decrease} className={`${styles.btn} ${styles.btn_red} `}>
+                <button onClick={() => updateNum(-1)} className={`${styles.btn} ${styles.btn_red} `}>
                     <BsCartDash /> 1
                 </button>
             </div>
@@ -55,23 +35,23 @@ const Cart = () => {
             <div className='text-center'>
                 <h2>Increase</h2>
                 <div className="flex gap-3 flex-wrap items-center justify-center my-4">
-                    <button className={`${styles.btn} ${styles.btn_green} `}>
+                    <button onClick={() => updateNum(5)} className={`${styles.btn} ${styles.btn_green} `}>
                         <BsCartPlus /> 5
                     </button>
 
-                    <button className={`${styles.btn} ${styles.btn_green} `}>
+                    <button onClick={() => updateNum(10)} className={`${styles.btn} ${styles.btn_green} `}>
                         <BsCartPlus /> 10
                     </button>
 
-                    <button className={`${styles.btn} ${styles.btn_green} `}>
+                    <button onClick={() => updateNum(20)} className={`${styles.btn} ${styles.btn_green} `}>
                         <BsCartPlus /> 20
                     </button>
 
-                    <button className={`${styles.btn} ${styles.btn_green} `}>
+                    <button onClick={() => updateNum(30)} className={`${styles.btn} ${styles.btn_green} `}>
                         <BsCartPlus /> 30
                     </button>
 
-                    <button className={`${styles.btn} ${styles.btn_green} `}>
+                    <button onClick={() => updateNum(50)} className={`${styles.btn} ${styles.btn_green} `}>
                         <BsCartPlus /> 50
                     </button>
                 </div>
@@ -80,23 +60,23 @@ const Cart = () => {
             <div className='text-center'>
                 <h2>Decrease</h2>
                 <div className="flex gap-3 flex-wrap items-center justify-center my-4">
-                    <button className={`${styles.btn} ${styles.btn_red} `}>
+                    <button onClick={() => updateNum(-5)} className={`${styles.btn} ${styles.btn_red} `}>
                         <BsCartDash /> 5
                     </button>
 
-                    <button className={`${styles.btn} ${styles.btn_red} `}>
+                    <button onClick={() => updateNum(-10)} className={`${styles.btn} ${styles.btn_red} `}>
                         <BsCartDash /> 10
                     </button>
 
-                    <button className={`${styles.btn} ${styles.btn_red} `}>
+                    <button onClick={() => updateNum(-20)} className={`${styles.btn} ${styles.btn_red} `}>
                         <BsCartDash /> 20
                     </button>
 
-                    <button className={`${styles.btn} ${styles.btn_red} `}>
+                    <button onClick={() => updateNum(-30)} className={`${styles.btn} ${styles.btn_red} `}>
                         <BsCartDash /> 30
                     </button>
 
-                    <button className={`${styles.btn} ${styles.btn_red} `}>
+                    <button onClick={() => updateNum(-50)} className={`${styles.btn} ${styles.btn_red} `}>
                         <BsCartDash /> 50
                     </button>
                 </div>
@@ -105,7 +85,7 @@ const Cart = () => {
 
 
 
-        </div>
+        </div >
     )
 }
 
