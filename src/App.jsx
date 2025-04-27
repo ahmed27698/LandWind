@@ -1,24 +1,20 @@
 import Footer from "./layout/Footer"
-import Header from "./layout/Header"
-import TopNavbar from "./layout/TopNavbar"
-
-
-import Pages from './pages'
-
+import Nav from "./layout/nav"
+import Company from "./layout/company"
+import MarketPlace from "./layout/MarketPlace"
+import Features from "./layout/Features"
+import Team from "./layout/team"
+import Contact from "./layout/Contact"
 export default function App() {
 
-
-  console.log('App Rendered')
-
-
   return (
-    <div className="h-screen bg-orange-100 text-sky-900 font">
-      <Header />
-
-      <TopNavbar />
-
-      <Pages />
-
+    <div>
+      <Nav />
+      <Company/>
+      <MarketPlace/>
+      <Features/>
+      <Team/>
+      <Contact/>
       <Footer />
     </div>
   )
