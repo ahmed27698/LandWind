@@ -1,40 +1,61 @@
+import { FaChevronUp } from "react-icons/fa";
+
 import React from 'react'
 
 const Contact = () => {
+    const openAccordion1 = ()=>{
+        document.querySelector('#opening1').classList.toggle('hidden');
+        document.querySelector('#icon1').classList.toggle('rotate-180')
+    }
+    const openAccordion2 = ()=>{
+        document.querySelector('#opening2').classList.toggle('hidden');
+        document.querySelector('#icon2').classList.toggle('rotate-180')
+    }
+    const openAccordion3 = ()=>{    
+        document.querySelector('#opening3').classList.toggle('hidden');
+        document.querySelector('#icon3').classList.toggle('rotate-180')
+    }
+    const openAccordion4 = ()=>{
+        document.querySelector('#opening4').classList.toggle('hidden');
+        document.querySelector('#icon4').classList.toggle('rotate-180')
+    }
     return (
         <section id='contact'>
-            Contact
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem perferendis magni sequi obcaecati dolores facilis autem quia quis expedita perspiciatis sint odio molestias est animi voluptatum fugit porro, aperiam exercitationem!</p>
-                <p>Maxime aliquam, minima omnis sint consectetur asperiores totam modi hic architecto magnam culpa ullam unde veritatis, tempore at iste odio quisquam dolor fugiat ut. Sequi labore inventore facere vero repellendus.</p>
-                <p>Quis itaque asperiores expedita explicabo sit voluptate, laborum, culpa laudantium ab aliquam ut saepe quod, nesciunt deserunt. Illo, dolore ab nulla, cupiditate eius error voluptas porro corrupti voluptate assumenda blanditiis?</p>
-                <p>Cupiditate fuga iure sed, harum debitis consequatur ducimus dignissimos similique, neque illo quod. Non eos ipsa quidem debitis. Ipsa earum accusantium consequatur dolores ducimus sed corporis maiores amet quia nam.</p>
-                <p>Recusandae hic, accusamus ipsum quibusdam veritatis beatae nisi ipsam assumenda laudantium vitae unde incidunt ratione a sunt minima molestias dolor rerum cupiditate omnis voluptate fugit porro cumque. Placeat, reprehenderit praesentium!</p>
-                <p>Modi sit tenetur, id quo necessitatibus distinctio amet corporis quasi, optio expedita dignissimos quos consectetur libero autem esse corrupti non reprehenderit aliquam. Architecto earum animi incidunt commodi ab ex molestiae!</p>
-                <p>Reprehenderit, omnis? Necessitatibus, aspernatur molestiae saepe odit eaque illo distinctio obcaecati sequi quisquam nisi dolorem autem. Laborum enim debitis vero odit eos rerum ad, quia ratione. Delectus dolor vero corrupti.</p>
-                <p>Eos sequi cum temporibus odio unde dolor vel, itaque ab praesentium, quos doloribus saepe libero exercitationem. Quia temporibus delectus suscipit fuga. Molestias quae non dolore nulla eligendi, ipsa deleniti impedit!</p>
-                <p>Voluptatibus natus dolores at. Unde assumenda eaque perferendis blanditiis quos nihil, tenetur velit fugiat vero numquam saepe, nostrum, dolor pariatur maiores. Praesentium odit sunt ratione accusamus nihil perspiciatis dolorum illo?</p>
-                <p>Labore fugit nulla sapiente commodi laborum, expedita, reiciendis delectus voluptates, veniam nisi iure laboriosam iusto praesentium assumenda unde magnam dicta mollitia minus excepturi totam dolorum consequuntur. Ea dignissimos et aliquam.</p>
-                <p>Sequi earum nam maxime esse, cum, unde officiis nulla explicabo, reiciendis dolorem eius accusantium labore voluptatibus dolores odit delectus error et libero? Doloribus officiis fuga voluptatibus rerum earum in vitae.</p>
-                <p>Illo, repellat molestiae at delectus nemo suscipit ullam error ea ab alias laboriosam eius soluta necessitatibus rerum eligendi iste, earum vitae hic nihil asperiores, veritatis dignissimos provident impedit labore! Neque.</p>
-                <p>Modi, error nulla natus quidem iusto expedita molestiae cum esse reiciendis maiores! Quas sunt vel magnam eaque, magni repellat nostrum hic possimus modi at porro, quis doloribus et harum asperiores.</p>
-                <p>Dolore exercitationem culpa assumenda aliquid alias atque voluptates impedit laborum, magnam dolor doloribus molestiae doloremque ipsa porro aperiam velit, illo sunt. Eum id quaerat repudiandae, nulla asperiores vero aut quasi.</p>
-                <p>A, reiciendis. Quis minima quod illum atque, et aut temporibus maxime accusantium obcaecati illo dolores ex beatae quaerat quae laudantium vitae perferendis dolore blanditiis, quam eveniet nam, sapiente hic. Soluta.</p>
-                <p>Accusantium reiciendis saepe ullam quisquam eum quae repellendus minima libero. Illo sunt, quibusdam amet, ipsum enim reiciendis dolores ipsa eum quas repellat cumque atque, id quos! Ab eius eveniet voluptatibus.</p>
-                <p>Veniam nostrum delectus molestias dolor nesciunt neque ab quo porro numquam labore fugit, ipsam suscipit nobis possimus distinctio hic? Aperiam amet rerum iure harum voluptates eum suscipit tenetur blanditiis distinctio.</p>
-                <p>Quo aliquam magni quas odio. Repellendus distinctio, perferendis atque inventore asperiores, reprehenderit reiciendis quidem adipisci aliquam, ex in quaerat vitae dolore? Et ipsa atque eos ex nam ipsum, doloremque velit.</p>
-                <p>Alias odit culpa laboriosam perspiciatis eveniet dignissimos modi sequi earum architecto provident fuga in odio, rerum esse numquam tempora quo facere ipsam vel ad eos animi corporis hic! Itaque, asperiores.</p>
-                <p>Atque, et repellat ducimus, aperiam repudiandae enim hic veritatis impedit architecto culpa dignissimos amet veniam expedita sint explicabo maiores modi itaque tempore at cum? Sunt ipsa error voluptates maxime porro!</p>
-                <p>Voluptatibus doloribus asperiores est assumenda dicta, enim et, sed nulla officia tenetur soluta dolor iste aspernatur eum. Eum, nobis. Blanditiis fugiat labore nobis dolore repudiandae distinctio minima aperiam eius eos.</p>
-                <p>Amet odio molestias, molestiae laboriosam voluptate animi, inventore eligendi ut culpa omnis, maxime illum placeat. Neque qui illo quas voluptate sit, quo repudiandae ab. Animi rem placeat maxime ipsam architecto!</p>
-                <p>Ad ab exercitationem distinctio nobis rem dolores quisquam dicta enim nesciunt dolorum sequi excepturi, voluptatum ipsum officia at dolor optio vel cupiditate. Non et officiis inventore temporibus in reiciendis aliquam!</p>
-                <p>Recusandae sit sed eligendi veniam architecto corrupti quae sunt ab quod error soluta praesentium unde a ad possimus nam nostrum, facilis in ipsum facere tempore iure repellendus animi. Veniam, nemo!</p>
-                <p>Quam cum facere, hic quis praesentium error reiciendis ipsam, pariatur expedita nulla unde iste autem! Aliquid, qui nostrum inventore dolorem autem consectetur libero magni placeat asperiores itaque accusamus cupiditate nihil!</p>
-                <p>Veritatis at explicabo sunt ullam perspiciatis qui eum id exercitationem cum provident quo voluptatum veniam nisi enim dolorum voluptates facere officiis harum debitis voluptatem nesciunt, ratione odio! Neque, ad vel.</p>
-                <p>Pariatur dicta maiores provident dolorem, quos id vero quas ab obcaecati, omnis esse tempore saepe maxime voluptas ratione? Vel rem ab sunt delectus nemo aliquid, deleniti ullam ducimus dolorum dolore?</p>
-                <p>Numquam est iure debitis eos eligendi amet temporibus unde, nobis cupiditate libero asperiores quis architecto odit enim quasi et ipsa quod laudantium, qui praesentium? Ipsam ducimus neque praesentium laboriosam tempore.</p>
-                <p>Culpa, error neque. Eveniet, similique dolores. Reiciendis, vero? Corporis obcaecati neque quisquam ullam illo vel enim, est nemo aliquam? Obcaecati tempora, incidunt cumque reprehenderit laborum tenetur sed voluptates error hic?</p>
-                <p>Ad deleniti quod amet mollitia placeat dolorum numquam quisquam perferendis dolorem repellendus, beatae quam eveniet modi dolor fugiat cum maxime! Aliquid minima placeat laudantium temporibus. Quos minima provident deleniti atque.</p>
+            <div className='flex flex-col items-center lg:px-[80px] md:px-[30px] px-[10px] py-10'>
+                <p className='text-gray-900 leading-tight md:text-4xl text-xl font-extrabold'>Frequently asked questions</p>
+                <div className='flex flex-col gap-5 items-center lg:w-6/12 md:w-9/12 w-full mt-10 px-5'>
+                    <div className="flex flex-col items-center w-full">
+                        <button className='text-gray-900 w-full font-medium items-center md:text-base text-xs flex justify-between border-b-1 pb-5 border-gray-200' onClick={openAccordion1}>Can I use FlowBite in open-source projects?<FaChevronUp className="text-gray-900" id="icon1"/></button>
+                        <div id="opening1" className='text-gray-500 mt-5'>
+                            <p className="md:text-base text-sm">Generally, it is accepted to use FlowBite in open-source projects, as long as it is not a UI library, a theme, a template, a page-builder that would be considered as an alternative to FlowBite itself.</p>
+                            <p className="md:text-base text-sm">With that being said, feel free to use this design kit for your open-source projects.</p>
+                            <p className="md:text-base text-sm">Find out more information by reading the license.</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center w-full">
+                        <button className='text-gray-900 w-full font-medium items-center md:text-base text-xs flex justify-between border-b-1 pb-5 border-gray-200' onClick={openAccordion2}>Where can I access my download files?<FaChevronUp className="rotate-180 text-gray-900" id="icon2"/></button>
+                        <div id="opening2" className='text-gray-500 mt-5 hidden'>
+                            <p className="md:text-base text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur praesentium minus laudantium velit, sint eveniet fuga repellendus veniam doloremque atque est? Quasi unde fuga recusandae alias id voluptate facere a!</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center w-full">
+                        <button className='text-gray-900 w-full font-medium items-center md:text-base text-xs flex justify-between border-b-1 pb-5 border-gray-200' onClick={openAccordion3}>Can I use FlowBite for commercial purposes?<FaChevronUp className="rotate-180 text-gray-900" id="icon3"/></button>
+                        <div id="opening3" className='text-gray-500 mt-5 hidden'>
+                            <p className="md:text-base text-sm" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate voluptatibus molestias nisi quibusdam, cumque odit iure suscipit sit unde laborum aliquam dolore adipisci nihil totam ex quos vitae. Quia!</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center w-full">
+                        <button className='text-gray-900 w-full font-medium items-center md:text-base text-xs flex justify-between border-b-1 pb-5 border-gray-200' onClick={openAccordion4}>What about browser support?<FaChevronUp className="rotate-180 text-gray-900" id="icon4"/></button>
+                        <div id="opening4" className='text-gray-500 mt-5 hidden'>
+                            <p className="md:text-base text-sm" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam praesentium, nostrum ut esse laboriosam recusandae assumenda, ad at sed nobis repellat sapiente quam ullam amet iste distinctio dolorum est eius?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='bg-gray-50 flex flex-col items-center gap-5 py-20 px-5'>
+                <p className='text-gray-900 text-4xl font-extrabold leading-tight'>Start your free trial today</p>
+                <p className='text-gray-500 text-xl'>Try Flowbite Platform for 30 days. No credit card required.</p>
+                <button className='text-white bg-purple-600 w-10/12 lg:w-2/12 h-14 rounded-2xl'>Free trial for 30 days</button>
             </div>
         </section>
     )
