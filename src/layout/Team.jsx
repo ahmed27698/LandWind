@@ -30,9 +30,9 @@ const Team = () => {
                         <div className="flex flex-col gap-4">
                             <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Individual configuration</p>
                             <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> No setup, monthly, or hidden fees</p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Team size: <p className="font-medium">1 developer</p></p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Premium support: <p className="font-medium">6 months</p></p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Free updates: <p className="font-medium">6 months</p></p>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Team size: <p className="font-medium">1 developer</p></div>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Premium support: <p className="font-medium">6 months</p></div>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Free updates: <p className="font-medium">6 months</p></div>
                         </div>
                         <button className="bg-purple-600 w-9/12 h-14 rounded-2xl text-white mt-5">Get Started</button>
                     </div>
@@ -46,9 +46,9 @@ const Team = () => {
                         <div className="flex flex-col gap-4">
                             <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Individual configuration</p>
                             <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> No setup, monthly, or hidden fees</p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500 flex flex-wrap"/> Team size: <p className="font-medium">10 developer</p></p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500 flex flex-wrap"/> Premium support: <p className="font-medium">24 months</p></p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500 flex flex-wrap"/> Free updates: <p className="font-medium">24 months</p></p>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500 flex flex-wrap"/> Team size: <p className="font-medium">10 developer</p></div>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500 flex flex-wrap"/> Premium support: <p className="font-medium">24 months</p></div>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500 flex flex-wrap"/> Free updates: <p className="font-medium">24 months</p></div>
                         </div>
                         <button className="bg-purple-600 w-9/12 h-14 rounded-2xl text-white mt-5">Get Started</button>
                     </div>
@@ -62,9 +62,9 @@ const Team = () => {
                         <div className="flex flex-col gap-4">
                             <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Individual configuration</p>
                             <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> No setup, monthly, or hidden fees</p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Team size: <p className="font-medium">100+ developer</p></p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Premium support: <p className="font-medium">36 months</p></p>
-                            <p className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Free updates: <p className="font-medium">36 months</p></p>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Team size: <p className="font-medium">100+ developer</p></div>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Premium support: <p className="font-medium">36 months</p></div>
+                            <div className="flex items-center gap-2"><FaCheck className="text-teal-500"/> Free updates: <p className="font-medium">36 months</p></div>
                         </div>
                         <button className="bg-purple-600 w-9/12 h-14 rounded-2xl text-white mt-5">Get Started</button>
                     </div>
