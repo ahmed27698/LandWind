@@ -7,7 +7,7 @@ const Brands = () => {
             <img className='md:w-1/12 w-2/12 h-8' src="/Spotify.png" alt="Spotify" />
             <img className='md:w-1/12 w-2/12 h-8' src="/MailChimp.png" alt="MailChimp" />
             <img className='md:w-1/12 w-2/12 h-8' src="/Airbnb.png" alt="Airbnb" />
-            <img className='md:w-1/12 w-2/12 h-8' src="/Uber.png" alt="Uber" />
+            <img className='md:w-1/12 w-2/12 h-8' src="/Uber.png" alt="aber" />
         </section>
     )
 }
