@@ -4,7 +4,7 @@ import React from 'react'
 const FeaturesTwo = () => {
     return (
         <section className='lg:flex grid justify-between w-full items-start lg:px-[80px] md:px-[30px] px-[10px] py-[24px] gap-10 bg-gray-50'>
-            <img className="lg:w-6/12 w-full" src="../../public/feature2.png" alt="features image two" />
+            <img className="lg:w-6/12 w-full" src="/feature2.png" alt="features image two" />
             <div>
                 <div className="grid gap-5">
                     <p className='text-3xl font-extrabold leading-tight'>We invest in the world’s potential</p>

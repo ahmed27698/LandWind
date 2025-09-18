@@ -19,7 +19,7 @@ const Features = () => {
                     <p className='text-xl text-gray-500'>Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
                 </div>
             </div>
-            <img className="lg:w-6/12 w-full" src="../../public/features1.png" alt="features image one" />
+            <img className="lg:w-6/12 w-full" src="/features1.png" alt="features image one" />
         </section>
     )
 }

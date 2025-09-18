@@ -1,7 +1,6 @@
 import { HiServer , HiUsers , HiShoppingCart , HiGlobe} from "react-icons/hi";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 
-import React from 'react'
 
 const MarketPlace = () => {
     return (

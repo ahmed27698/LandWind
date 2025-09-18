@@ -37,7 +37,7 @@ export default function Nav() {
     return (
         <nav className=" lg:px-[80px] w-full md:px-[px] px-[10px] py-[24px] flex gap-2 items-center justify-between">
             <div className="flex lg:w-3/12 xl:w-2/12 w-2/12 gap-2">  
-                <img src="../../public/logo.png" alt="logo image" className="w-[29.76px] h-[32.62px]"/>
+                <img src="/logo.png" alt="logo image" className="w-[29.76px] h-[32.62px]"/>
                 <h1 className="text-gray-900 font-semibold text-2xl">LandWind</h1>
             </div>
             <ul className="lg:w-8/12 w-5/12 flex gap-3 lg:gap-5 justify-start">

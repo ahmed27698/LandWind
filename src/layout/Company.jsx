@@ -13,7 +13,7 @@ const Company = () => {
                     <button className='bg-gray-50 text-gray-800 border-1 border-gray-200 p-2 rounded-xl'>Pricing & FAQ</button>
                 </div>
             </div>
-            <img className='lg:w-4/12 md:w-6/12' src="../../public/marketing-strategy 1.png" alt="marketing strategy image" />
+            <img className='lg:w-4/12 md:w-6/12' src="/marketing-strategy 1.png" alt="marketing strategy image" />
         </section>
     )
 }

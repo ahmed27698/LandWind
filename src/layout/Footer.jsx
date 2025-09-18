@@ -44,7 +44,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="flex flex-col gap-5 justify-center items-center mt-10">
-                <div className="font-bold text-gray-900 flex items-center gap-3"><img src="../../public/logo.png" alt="logo" />LandWind</div>
+                <div className="font-bold text-gray-900 flex items-center gap-3"><img src="/logo.png" alt="logo" />LandWind</div>
                 <p className="text-gray-500">© 2022 Flowbite, Inc. All rights reserved.</p>
                 <div className="flex gap-5 text-gray-500">
                     <FaGithub/>
