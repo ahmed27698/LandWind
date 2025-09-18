@@ -1,5 +1,5 @@
 import Nav from "./layout/nav"
-import Company from "./layout/company"
+import Company from "./layout/Company"
 import Brands from "./layout/brands"
 import Features from "./layout/Features"
 import FeaturesTwo from "./layout/FeaturesTwo"
